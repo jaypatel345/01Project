@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0px;
+    padding: auto;
+    height: 10vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+#img1 {
+    width: 23vw;
+    height: 12vh;
+    margin: 10px;
+    position: relative;
+    left: 14px;
+    bottom: 39px;
+
+}
+
+#nav2 {
+    gap: 1.2vw;
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    margin-right: 80px;
+    font-family: "Baskerville";
+
+}
+
+#nav2 h5 {
+
+    border: 0.1em solid rgba(48, 47, 47, 0.894);
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 400;
+    color: rgb(2, 2, 2);
+    position: relative;
+    overflow: hidden;
+
+}
+
+#nav2 h5::after {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    background-color: rgb(19, 16, 16);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -100%;
+}
+
+#nav2 h5:hover::after {
+    border-radius: 30px;
+    bottom: 0;
+    transition: all ease 0.5s;
+}
+
+#nav2 h5 a {
+    color: rgba(8, 1, 1, 0.831);
+    text-decoration: none;
+    z-index: 2;
+    position: relative;
+}
+
+#nav2 h5:hover a {
+    color: rgb(242, 237, 237);
+}
+
+#img2 {
+    width: 100%;
+    height: 95vh;
+
+}
+
+#instagram {
+    position: absolute;
+    left: 88.2%;
+    font-size: 28px;
+}
+
+#X {
+    position: absolute;
+    left: 96%;
+    font-size: 28px;
+}
+
+#youtube {
+    position: absolute;
+    left: 93.4%;
+    font-size: 28px;
+}
+
+#facebook {
+    position: absolute;
+    left: 90.7%;
+    font-size: 28px;
+}
+
+.container {
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+}
+
+#text {
+
+    position: absolute;
+    bottom: 47vh;
+    left: 60px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#text2 {
+
+    position: absolute;
+    bottom: 36vh;
+    left: -64px;
+    text-align: left;
+    font-size: medium;
+
+}
+
+#button {
+    border-radius: 17px;
+    background-color: rgb(220, 205, 205);
+    border: 0;
+    position: absolute;
+    left: 250px;
+    height: 40px;
+    bottom: 200px;
+    width: 180px;
+    padding-top: 17px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "SF Pro Display";
+    font-size: medium;
+}
+
+.cursor1 {
+    position: absolute;
+    left: 14px;
+    width: 20px;
+    height: 30px;
+    bottom: 16px;
+    ;
+}
+
+.cursor2 {
+    position: absolute;
+    left: 145px;
+    width: 20px;
+    height: 28px;
+    bottom: 16px;
+    ;
+}
+
+#button:hover a {
+
+    color: rgb(240, 242, 242);
+
+}
+
+#button a {
+
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+
+/* //// */
+#logo {
+    width: 100%;
+    height: 23vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.logo_img:hover {
+    transition: all ease 0.3s;
+    border: 2px solid rgba(40, 39, 39, 0.542);
+
+
+}
+
+#logo a {
+    padding-left: 250px;
+    margin-top: 100px;
+    color: rgb(130, 130, 243);
+    text-decoration: underline;
+    position: relative;
+    top: 85px;
+    bottom: 100px;
+    font-family: "Baskerville";
+    font-size: larger;
+    text-align: center;
+}
+
+
+
+
+.mis2 {
+    position: absolute;
+    left: 620px;
+    top: 850px;
+
+}
+
+#logo a:hover {
+
+    color: rgb(82, 82, 111);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container h5 {
+
+    position: relative;
+    left: 140px;
+    top: 59px;
+    font: 400;
+    font-family: "SF Pro Display";
+    font-size: medium;
+    color: rgba(41, 40, 40, 0.782);
+
+}
+
+.logo_img {
+    border: 1px solid rgba(56, 55, 55, 0.542);
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    left: 130px;
+    top: 50px;
+    padding: 0px;
+}
+
+.logo_img2 {
+    border: 1px solid rgba(56, 55, 55, 0.542);
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    left: 130px;
+    top: 50px;
+    padding: 0px;
+}
+
+.logo_img3 {
+    border: 1px solid rgba(56, 55, 55, 0.542);
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    left: 130px;
+    top: 50px;
+    padding: 0px;
+}
+
+.logo_img4 {
+    border: 1px solid rgba(56, 55, 55, 0.542);
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    left: 130px;
+    top: 50px;
+    padding: 0px;
+}
+
+.logo_img5 {
+    border: 1px solid rgba(56, 55, 55, 0.542);
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    left: 130px;
+    top: 50px;
+    padding: 0px;
+
+
+}
+
+.logo_img6 {
+    border: 1px solid rgba(56, 55, 55, 0.542);
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    left: 130px;
+    top: 50px;
+    padding: 0px;
+
+
+}
+
+/*.logo_img7 {
+    border: 1px solid rgba(56, 55, 55, 0.542);
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    left: 130px;
+    top: 50px;
+    padding: 0px;
+
+
+}*/
+
+.container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 70px;
+    font-family: "SF Pro Display";
+    position: relative;
+    left: -8px;
+}
+
+.pre {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FBF8F2;
+    padding: 80px;
+    box-sizing: border-box;
+    color: rgb(123, 123, 237);
+
+}
+
+.pre h1 {
+    font-family: "Baskerville";
+    font-size: 34px;
+
+}
+
+.pre p {
+    position: relative;
+    left: 130px;
+
+}
+
+span {
+    position: relative;
+    top: 20px;
+    left: 1000px;
+}
+
+#ex2 {
+    padding: 20px;
+    height: 10px;
+    width: 69vw;
+    background-color: rgb(164, 158, 158);
+    position: relative;
+    left: 408px;
+    display: flex;
+    gap: 1.7vw;
+
+}
+
+#ex2 a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+#ex2 h5:hover a {
+
+    color: rgb(53, 50, 50);
+
+}
+
+.b {
+    position: relative;
+    right: 15px;
+}
+
+.c {
+    position: relative;
+    right: 10px;
+}
+
+.d {
+    position: relative;
+    right: -20px;
+}
+
+.e {
+    position: relative;
+    right: -10px;
+}
+
+#footer {
+    height: 28px;
+    width: 100%;
+}
+
+.video {
+    display: flex;
+    height: 45vh;
+    margin-top: 100px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+#video1 {
+    margin-right: 20px;
+    width: 500px;
+}
+
+#video2 {
+
+    width: 500px;
+}
+
+.icon {
+    font-size: 70px;
+    position: relative;
+    right: 600px;
+    bottom: -280px;
+}
+
+.icon2 {
+    font-size: 70px;
+    position: relative;
+    right: 150px;
+    bottom: -280px;
+}
+
+/* .icon:hover a{
+font-size: 75px;
+
+} */
+#div1 h4 {
+    width: 400px;
+    position: relative;
+    right: -106px;
+    top: -80px;
+    font-size: large;
+}
+
+#div1 h5 {
+    width: 400px;
+    position: relative;
+    right: -628px;
+    top: -106px;
+    font-size: medium;
+}
